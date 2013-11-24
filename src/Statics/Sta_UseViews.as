@@ -1,6 +1,6 @@
 package Statics
 {
-	import Views.Views.Vic_00_00_StartMenu;
+	import Views.Views.Viw_00_00_StartMenu;
 	
 	import mx.utils.ObjectUtil;
 
@@ -9,7 +9,7 @@ package Statics
 		public static const FIRST_VIEW:String = LABEL_00_00;
 		
 		public static var LABEL_00_00:String = "Vic_00_00";
-		public static var CLASS_00_00:Class = Vic_00_00_StartMenu;
+		public static var CLASS_00_00:Class = Viw_00_00_StartMenu;
 		
 		public var obj_UseView:Object = new Object();
 		
