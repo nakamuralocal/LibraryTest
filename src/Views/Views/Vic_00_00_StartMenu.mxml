@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Group xmlns:fx="http://ns.adobe.com/mxml/2009"
+		 xmlns:s="library://ns.adobe.com/flex/spark"
+		 xmlns:mx="library://ns.adobe.com/flex/mx"
+		 xmlns:Components="Views.Components.*"
+		 width="1200" height="800">
+	<fx:Declarations>
+		<!-- 非ビジュアルエレメント (サービス、値オブジェクトなど) をここに配置 -->
+	</fx:Declarations>
+	<s:Label top="30" fontSize="23" horizontalCenter="0" text="Vic_00_00_StartMenu"/>
+	<Components:Ocv_FreeAddTextGroup x="100" y="80" width="300" height="200">
+	</Components:Ocv_FreeAddTextGroup>
+	
+	<Components:Ocv_TilingCheckBox x="434" y="80" width="600" height="600">
+	</Components:Ocv_TilingCheckBox>
+</s:Group>
